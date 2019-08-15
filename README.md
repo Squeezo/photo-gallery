@@ -1,6 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple web-based app to display a folder of photos in a browser, using NodeJS and React/Redux. 
 
-## Available Scripts
+app.js - the node server. See this file for the folder paths. 
+/pics - assumes the presence of 3 subfolders (for now): web, low and high.
+
+
+
+
+
+
+
+
+
+## Standard Create React App boilerplate:
 
 In the project directory, you can run:
 

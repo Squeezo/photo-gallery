@@ -106,7 +106,7 @@ const loadPhotos = () => {
       logger.info(`webImages length: ${webImages.length}`);
       return webImages.forEach(function(image) {
 
-        //logger.info(path.join(app.locals.lowFolder, image));
+        logger.info(path.join(app.locals.lowFolder, image));
         var item = {};
 
         item.file = image;
