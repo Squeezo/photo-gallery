@@ -14,7 +14,6 @@ const photosReducer = (state = {startat: 0, photos:[]}, action) => {
 
       }
     case RECEIVE_PHOTOS:
-      console.log('state.photos', state)
       return {
         ...state,
         fetchingPhotos: false,
