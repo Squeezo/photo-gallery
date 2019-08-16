@@ -3,30 +3,6 @@ const fs = require("fs");
 const path = "../pics/low/";
  
 
-  
-
-const options = {
-  portrait : {
-    srcPath: '../../pics/low/',
-    dstPath: '../../web/',
-    quality: 0.99,
-    format: 'jpg',
-    width: 400,
-    height: 600
-  },
-  landscape : {
-    srcPath: '../../pics/low/',
-    dstPath: '../../web/',
-    quality: 0.99,
-    format: 'jpg',
-    width: 600,
-    height: 400    
-  }
-};
-
-
-
-
 class ThumbnailGenerator {
 
   run() {
